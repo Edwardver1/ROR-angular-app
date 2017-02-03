@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- ng-app - moduł angulara obsługujący stronę !-->
+<html ng-app="cars">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+  <!-- import bibliotek angulara !-->
+    <script src="./lib/angular.min.js"></script>
+    <script src="./lib/angular-route.min.js"></script>
+    <!--<script src="lib/angular-messages.min.js"></script>-->
+    <!--<script src="lib/angular-route.js"></script>-->
+  <!-- import skryptów !-->
+    <script src="./js/controllers.js"></script>
+    <script src="./js/config.js"></script>
+  </head>
+  <body>
+  <!-- ng-view - tu wyświetlamy widoki z folderu partials, wskazane przez config.js !-->
+
+    <div ng-view></div>
+  </body>
+</html>
